@@ -1,0 +1,23 @@
+<template name="layout">
+  <header>
+    <div class="container">
+      <div class="grid 1of1 center">
+        <h1>Update by Email</h1>
+        <h2>Email powered project updates</h2>
+        <p>Proof of concept by <a href="https://twitter.com/workbymark">Mark Hendriks</a></p>
+      </div>
+    </div>
+  </header>
+  <section class="instructions center">
+    <div class="container">
+      <div class="grid 1of1 center less-padding">
+        Send your update by email with subject and message to <a href="mailto:update@workbymark.com">update@workbymark.com</a>
+      </div>
+    </div>
+  </section>
+  <section class="updates">
+    <div class="container">
+      {{> yield}}
+    </div>
+  </section>
+</template>

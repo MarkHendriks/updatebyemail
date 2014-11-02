@@ -1,1 +1,1 @@
-Updates = new Meteor.Collection('updates');
+Updates = new Mongo.Collection('updates');

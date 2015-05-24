@@ -59,6 +59,19 @@ header p {
   color: #F0F4F9;
 }
 
+.day-header {
+  margin: 40px 0 0;
+  padding: 7px 0 9px;
+  background: #F0F4F9;
+  font-size: 13px;
+  text-align: center;
+  color: #8E9195;
+}
+
+.day-header:first-child {
+  margin: 0;
+}
+
 .update {
   margin-bottom: 1.5em;
   padding: 1.5em;
